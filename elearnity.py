@@ -5,13 +5,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.common.keys import Keys
 from time import sleep
 import time
-
-
-
-
 
 username = "your_username"
 password = "your_password"
@@ -31,7 +26,7 @@ def countdown(t):
         t -= 1
     driver.get("https://elearnity.gr/course/view.php?id=1115&amp;section=3")
 
-    # ATTENSION! If you finish the lesson you have to change to anothe by changing digimark to html5 or cms in line 35 and 77
+    # ATTENTION! If you finish the lesson you have to change to anothe by changing digimark to html5 or cms in line 30 and 72
     gotolesson(digimark)
     print('30 minutes passed!!')
 
@@ -73,5 +68,5 @@ driver.get("https://elearnity.gr/course/view.php?id=1115")
 
 sleep(1)
 
-# ATTENSION! If you finish the lesson you have to change to anothe by changing digimark to html5 or cms in line 35 and 76
+# ATTENTION! If you finish the lesson you have to change to anothe by changing digimark to html5 or cms in line 30 and 72
 gotolesson(digimark)
