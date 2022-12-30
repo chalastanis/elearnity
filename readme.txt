@@ -8,4 +8,4 @@ Put in your credentials in username password and run it for each lesson
 
 You can change the links for the lessons when you complete the hours for one of them.
 
-It runs in loops of 30 minutes so you just have to run it once and leave it as long as it needed for each lesson (etc 20 hours for html5).
+It runs in loops of 30 minutes so you just have to run it once and leave it as long as it needed for each lesson (ex. 20 hours for html5).
